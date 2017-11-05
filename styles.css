@@ -1,0 +1,93 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background: black;
+	color: white;
+	text-align: justify;
+}
+
+.container {
+	background: #222;
+}
+
+header {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer {
+	text-align: center;
+	color: orange;
+	padding: 5px;
+}
+
+
+h1, h2 {
+	color: teal;
+	border-bottom:  2px solid orange;
+}
+
+p {
+	padding-left: 10px;
+}
+
+@keyframes spin {
+    0%   {
+    	-ms-transform: rotate(0deg); /* IE 9 */
+    	-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    	transform: rotate(0deg);
+    }
+    100%   {
+    	-ms-transform: rotate(360deg); /* IE 9 */
+    	-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    	transform: rotate(360deg);
+    }
+}
+
+.fa-circle-o-notch {
+	font-size: 12px !important;
+	animation: spin 4s linear infinite;
+}
+
+.skill-highlight {
+	color: orange;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.highlight {
+	color: orange;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+#skills {
+	padding-left: 40px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: orange;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    ul {
+        padding-left: 15px;
+    }
+
+    #skills {
+	padding-left: 15px;
+}
+}
